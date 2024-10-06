@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Flags</title>
+    <link rel="shortcut icon" href="./design/tulips_1545135.png">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="mainDiv">
+        
+        <nav id="topNav">
+            
+            <div id="navLeft">
+                Where in the world?
+            </div>
+            
+            <div id="navRight">
+                <img src="./design/sleep.png" alt="#">
+                <div>Dark Mode</div>
+            </div>
+        
+        </nav>
+        
+        <div id="searchFilterCountry">
+            
+            <div id="searchFilter">
+                
+                <div id="searchCountry">
+
+                    
+                    <input type="text" placeholder="Search a country or region..." value="" id="enter">
+                    
+                    <img src="./design/search_17867770.png" alt="#">
+
+                </div>
+<!-- use div tomorrow -->
+
+                <div id="dropDownMenu">
+
+                    <button id="hoverMode">Filter by Origin<img src="./design/down-chevron_9144316.png" alt=""></button>
+                    
+                    <button id="normalMode">Filter by Origin<img src="./design/up-chevron_9144317.png" alt=""></button>
+                    
+                    <div id="dropDownHover">
+                        <button class="filter" data-filter="Africa">Africa</button>
+                        <button class="filter" data-filter="Americas">Americas</button>
+                        <button class="filter" data-filter="Asia">Asia</button>
+                        <button class="filter" data-filter="Europe">Europe</button>
+                        <button class="filter" data-filter="Oceania">Oceania</button>
+                        <button class="filter" data-filter="All">All</button>
+                    </div>
+                
+                </div>
+            
+            </div>
+            
+            <div id="allCountries">
+                <div id="toDuplicate">
+
+                    <div id="eachCountry">
+                    
+                        <img src="" alt="no_img" id="flag">              
+                        
+                        <div id="country">
+                        </div>
+                        
+                        <div id="population">
+                        </div>
+                        
+                        <div id="region">
+                        </div>
+                        
+                        <div id="capital">
+                        </div>
+                    
+                    </div>
+    
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
